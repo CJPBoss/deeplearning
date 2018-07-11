@@ -6,4 +6,5 @@ c = tf.multiply(a, b)
 
 sess = tf.Session()
 
+print("==================================")
 print(sess.run(c))
